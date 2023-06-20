@@ -129,10 +129,15 @@ header{
 }
 
 aside{
-    background-color: azure;
+    background-color: #abe0ff;
     width: 0vw;
     overflow-x: hidden;
     font-family: 'Hepta stab', helvetica, arial;
+    transition: all ease 0.2s;
+}
+
+aside.show{
+  width: 30vw;
 }
 
 .cart-area{
